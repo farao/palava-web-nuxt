@@ -1,0 +1,25 @@
+{
+  "name": "palava-web-nuxt",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "palava-client": "git@github.com:palavatv/palava-client.git#v3",
+    "nuxt": "^4.2.2",
+    "sass": "^1.97.1",
+    "vue": "^3.5.25",
+    "vue-inline-svg": "^4.0.1",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^10.2.1",
+    "@vite-pwa/nuxt": "^1.1.0",
+    "vite-svg-loader": "^5.1.0"
+  }
+}
